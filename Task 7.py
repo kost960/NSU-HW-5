@@ -16,7 +16,7 @@ if M > K and M - K <= N // 2 or M < K and K - M > N // 2:
 elif K == M or abs(K - M) == 1:
     pass
 else:
-    quantity_split[1] -= 1
+    K -= 1
     while K != M:
         count += 1
         if K <= 0:
